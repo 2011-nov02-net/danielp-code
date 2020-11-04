@@ -13,8 +13,9 @@ namespace Acronymalizer
 
             String Acronym = new String("");
 
-            for( int i = 0; i < words.Length; i++){
-
+            for( int i = 0; i < words.Length; i++)
+            {
+                //TODO: skip and and the, and some other basic words.
                 //skip any enteries that are empty
                 if(words[i].Length > 0)
                 {
@@ -24,7 +25,6 @@ namespace Acronymalizer
                     //append the character to the acronym
                     Acronym = Acronym + words[i][0];
                 }
-                
             }
 
             //make the acronym upper case like real acronyms
