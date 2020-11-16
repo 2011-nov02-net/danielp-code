@@ -36,5 +36,8 @@ namespace danielp_code.RockPaperScicsors
             //todo: check last move or default to something incase this is first match
             return Moves.PAPER;
         }
+
+
+        //TODO: save games, or at least score history
     }
 }
