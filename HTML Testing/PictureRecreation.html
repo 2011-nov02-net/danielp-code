@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="" alt="an image" width="500" height="250">
+    <h1>About</h1>
+    <article>
+        <p> Some text about the website</p>
+    </article>
+    <br><br>
+
+    <h2>Our Locations</h2>
+    <ul>
+        <li>
+            USA
+            <ul>
+                <li><a href="">New York</a></li>
+                <li><a href="">Columbus</a></li>
+                <li><a href="">Austin</a></li>
+                <li><a href="">Philly</a></li>
+            </ul>
+        </li>
+        <li>
+            World
+            <ul>
+                <li><a href="">Ottawa</a></li>
+                <li><a href="">Sydney</a></li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <h2>Upcoming Classes</h2>
+    <table>
+        <!-- Location stable-->
+        <tr>
+            <th>Location</th>
+            <th>Topic</th>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>JavaScript And jQuery</td>
+        </tr>
+        <tr>
+            <td>San Fransisco</td>
+            <td>HTML And CSS</td>
+        </tr>
+    </table>
+
+    <div>
+        <h2>Sign Up!</h2>
+        <form action="Signup">
+            <!--Name-->
+            <label for="Name">Name:</label>
+            <input type="text" name="user-name" />
+
+            <br>
+
+            <!--Email-->
+            <label for="Email">Email:</label>
+            <input type="email" name="user-email" />
+
+            <br>
+
+            <!--Location-->
+            <label for="Location">Location: </label>
+            <select name="Location" id="Location">
+                <option value="SF">San Fransisco</option>
+                <option value="NY">New York</option>
+            </select>
+
+            <br>
+
+            <!--Gender-->
+            <fieldset>
+                <legend>Gender:</legend>
+
+                <input type="radio" name="Gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="female" value="Female">
+                <label for="female">Female</label>
+            </fieldset>
+
+            <br>
+
+            <!--Experince-->
+            <textarea name="Experince" id="Experince" cols="30" rows="2">Experince:</textarea>
+
+            <br>
+            <!--Submit-->
+            <input type="submit" value="Sign Up" />
+        </form>
+
+
+    </div>
+
+    <footer>
+        <p><a href="www.Twitter.com">Twitter</a> | <a href="www.Facebook.com">facebook</a> | <a href="www.Flickr.com">Flickr</a></p>
+    </footer>
+</body>
+
+</html>
