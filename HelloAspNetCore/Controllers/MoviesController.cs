@@ -20,9 +20,25 @@ namespace HelloAspNetCore.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string id)
         {
-            return View(await _context.Movie.ToListAsync());
+            var movies = from m in _context.Movie
+                         select m;
+
+            if (!String.IsNullOrEmpty(id))
+            {
+                movies = movies.Where(s => s.Title.Contains(id));
+            }
+
+            return View(await movies.ToListAsync());
+            //return View(await _context.Movie.ToListAsync());
+        }
+
+
+        [HttpPost]
+        public string Index(string searchString, bool notUsed) //bool used to create an overload.
+        {
+            return "From [HttpPost]Index: filter on " + searchString;
         }
 
         // GET: Movies/Details/5
@@ -66,6 +82,7 @@ namespace HelloAspNetCore.Controllers
         }
 
         // GET: Movies/Edit/5
+        //[HttpGet] //default, so already applied technically
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)

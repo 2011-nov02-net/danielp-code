@@ -57,12 +57,24 @@ namespace HelloAspNetCore
             //does nothing for now, but there incase you do do authorization later.
             app.UseAuthorization();
 
+
+
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{searchString?}");
             });
+
+            /*
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
+            */
         }
     }
 }
