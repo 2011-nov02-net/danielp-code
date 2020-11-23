@@ -1,0 +1,38 @@
+div {
+    overflow-y: scroll;
+    width: 400px;
+    height: 200px;
+    border: 8px;
+    border-style: dashed;
+    border-color: orange;
+    background-color: yellow;
+    margin: 1%;
+}
+
+p::first-line {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img {
+    border: 8px;
+    border-style: solid;
+    border-color: orange;
+    width: 400px;
+    max-height: 200px;
+    margin: 1%;
+}
+
+main {
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: maroon;
+    margin-left: 1px;
+    margin-right: 4px;
+    margin-top: 2 px;
+}
+
+h1 {
+    margin: 1%;
+}

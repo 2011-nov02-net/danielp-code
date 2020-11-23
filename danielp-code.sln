@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "project", "FirstDotNetProj\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondProject", "SecondDotNet\SecondProject\SecondProject.csproj", "{E86C8494-CE7B-42C3-9D8C-0F8E30F83E4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAspNetCore", "HelloAspNetCore\HelloAspNetCore.csproj", "{14A900A4-7BAF-4815-8FD1-EB1DEDD8C264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETThing1", "ASP.NETThing1\ASP.NETThing1.csproj", "{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{E86C8494-CE7B-42C3-9D8C-0F8E30F83E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E86C8494-CE7B-42C3-9D8C-0F8E30F83E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E86C8494-CE7B-42C3-9D8C-0F8E30F83E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A900A4-7BAF-4815-8FD1-EB1DEDD8C264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A900A4-7BAF-4815-8FD1-EB1DEDD8C264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A900A4-7BAF-4815-8FD1-EB1DEDD8C264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A900A4-7BAF-4815-8FD1-EB1DEDD8C264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
