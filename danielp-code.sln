@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "project", "FirstDotNetProj\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondProject", "SecondDotNet\SecondProject\SecondProject.csproj", "{E86C8494-CE7B-42C3-9D8C-0F8E30F83E4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAspNetCore", "HelloAspNetCore\HelloAspNetCore.csproj", "{14A900A4-7BAF-4815-8FD1-EB1DEDD8C264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloAspNetCore", "HelloAspNetCore\HelloAspNetCore.csproj", "{14A900A4-7BAF-4815-8FD1-EB1DEDD8C264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETThing1", "ASP.NETThing1\ASP.NETThing1.csproj", "{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETThing1", "ASP.NETThing1\ASP.NETThing1.csproj", "{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerConsoleApp", "DockerConsoleApp\DockerConsoleApp.csproj", "{D8A78751-0D1A-4467-9A30-6EF59D38A182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A78751-0D1A-4467-9A30-6EF59D38A182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A78751-0D1A-4467-9A30-6EF59D38A182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A78751-0D1A-4467-9A30-6EF59D38A182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A78751-0D1A-4467-9A30-6EF59D38A182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
