@@ -2,11 +2,12 @@
 # of some already existing image
 
 # 1. choose a base image witht he dependencies for the program we're going to copy in
-FROM mcr.microsoft.com/dotnet/runtime:5.0
+FROM mcr.microsoft.com/dotnet/runtime:3.1
 
 # 2. copy our program into the image
 #from outside our image to inside 
 #copy source destination
+#the first file is relative to the docker file, the second one is relative to root of the container.
 COPY publish/ /app
 #can be put anywhere, but becuase where the only one here, we'll just choose a short path
 
