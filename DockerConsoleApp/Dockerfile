@@ -12,7 +12,6 @@ FROM mcr.microsoft.com/dotnet/sdk:3.1
 #so now we copy in entire directory to get the source code
 COPY . /app
 #can be put anywhere, but becuase where the only one here, we'll just choose a short path
-
 WORKDIR /app
 
 # 3 (new) runs durring docker build, not durring docker run, so sets up the image for when you un the container
@@ -21,9 +20,6 @@ RUN dotnet build . -o publish
 # 4. configure it with the command to use to start containers
 CMD dotnet /app/publish/DockerConsoleApp.dll
 
-
-
 #how to use 
-# 1. dotnet publish -o publish
-# 2. docker build -t docker-consoleapp .
-# 3. docker run docker-consoleapp
+# 1. docker build -t docker-consoleapp .
+# 2. docker run docker-consoleapp
