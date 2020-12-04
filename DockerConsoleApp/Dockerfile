@@ -13,8 +13,10 @@ FROM mcr.microsoft.com/dotnet/sdk:3.1
 COPY . /app
 #can be put anywhere, but becuase where the only one here, we'll just choose a short path
 
+WORKDIR /app
+
 # 3 (new) runs durring docker build, not durring docker run, so sets up the image for when you un the container
-RUN dotnet build -o publish 
+RUN dotnet build . -o publish 
 
 # 4. configure it with the command to use to start containers
 CMD dotnet /app/publish/DockerConsoleApp.dll
