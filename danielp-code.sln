@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloAspNetCore", "HelloAsp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETThing1", "ASP.NETThing1\ASP.NETThing1.csproj", "{49B1C8DF-E4CC-4F0D-A97F-213D106DC154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerConsoleApp", "DockerConsoleApp\DockerConsoleApp.csproj", "{D8A78751-0D1A-4467-9A30-6EF59D38A182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerConsoleApp", "DockerConsoleApp\DockerConsoleApp.csproj", "{D8A78751-0D1A-4467-9A30-6EF59D38A182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWCF", "HelloWCF\HelloWCF.csproj", "{E96DC822-BA52-4D08-A38A-87BA6850D61D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebApi.Api", "HelloWebApi.Api\HelloWebApi.Api.csproj", "{0403BCD2-60F9-407B-B748-72377E4821CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{D8A78751-0D1A-4467-9A30-6EF59D38A182}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8A78751-0D1A-4467-9A30-6EF59D38A182}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8A78751-0D1A-4467-9A30-6EF59D38A182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96DC822-BA52-4D08-A38A-87BA6850D61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96DC822-BA52-4D08-A38A-87BA6850D61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96DC822-BA52-4D08-A38A-87BA6850D61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96DC822-BA52-4D08-A38A-87BA6850D61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0403BCD2-60F9-407B-B748-72377E4821CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0403BCD2-60F9-407B-B748-72377E4821CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0403BCD2-60F9-407B-B748-72377E4821CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0403BCD2-60F9-407B-B748-72377E4821CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
