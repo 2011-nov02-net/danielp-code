@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerConsoleApp", "DockerC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWCF", "HelloWCF\HelloWCF.csproj", "{E96DC822-BA52-4D08-A38A-87BA6850D61D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebApi.Api", "HelloWebApi.Api\HelloWebApi.Api.csproj", "{0403BCD2-60F9-407B-B748-72377E4821CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebApi.Api", "HelloWebApi.Api\HelloWebApi.Api.csproj", "{0403BCD2-60F9-407B-B748-72377E4821CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.API", "Notes.API\Notes.API.csproj", "{DEA47354-B7CC-4976-BC51-10B7885F4E75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{0403BCD2-60F9-407B-B748-72377E4821CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0403BCD2-60F9-407B-B748-72377E4821CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0403BCD2-60F9-407B-B748-72377E4821CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA47354-B7CC-4976-BC51-10B7885F4E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA47354-B7CC-4976-BC51-10B7885F4E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA47354-B7CC-4976-BC51-10B7885F4E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA47354-B7CC-4976-BC51-10B7885F4E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
