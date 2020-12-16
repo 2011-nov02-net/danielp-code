@@ -18,4 +18,20 @@ export class HeroService {
     return of(HEROES);
   }
 
+
+  getHero(id: number): Observable<Hero> {
+    // TODO: send the message _after_ fetching the hero
+    this.messageService.add(`HeroService: fetched hero id=${id}`);
+
+    let foundhero = HEROES.find(hero => hero.id === id)
+
+    if( foundhero) {
+      return of(foundhero);
+    }
+    else {
+      let noHero:Hero = {id: 0, name:"Hero not found."}
+      return of(noHero)
+    }
+  }
+
 }
