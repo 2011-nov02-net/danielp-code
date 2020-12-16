@@ -1,12 +1,9 @@
 //done for use
 //'use strict';
+//specified in compile configuration.
 
-//defines requirements to be a member of the set of objects
-//that count as a message
-interface Message{
-    msg_txt: string;
-}
-
+import { Message } from './Message'
+import { MessageFormatter } from './MessageFormatter'
 
 //compile command:
 //tsc --target ES6 /src/HelloTypeScript.ts --outDir /out/
@@ -17,8 +14,8 @@ interface Message{
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    let message = {msg_txt: "Hello world"}
-    addMessage(message);
+    let msgformat = new MessageFormatter
+    addMessage(msgformat.FormatMessage("Hello world."));
 });
 
 
